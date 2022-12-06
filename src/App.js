@@ -12,6 +12,7 @@ import Slider from '@mui/material/Slider';
 import Box from '@mui/material/Box';
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
 
 const App = () => {
 
@@ -85,6 +86,20 @@ const App = () => {
       setCart([...local])
 
     }
+
+  }
+  
+  const handle_reset = (e) => {
+
+    setSortOption("ascending")
+
+    setWater(true)
+    setGrass(true)
+    setBug(true)
+    setNormal(true)
+    setFire(true)
+
+    setSlider(30)
 
   }
 
@@ -177,6 +192,12 @@ const App = () => {
               )
             })}
           </Stack>
+          <Button
+            variant={"contained"}
+            style={{height: "38px", marginTop: "10px", marginRight: "10px", backgroundColor: '#e4000f'}}
+            onClick={(e) => handle_reset(e)}>
+              Reset
+          </Button>
           <FormControl sx={{ m: 1, minWidth: 120 }} size="small">
             <InputLabel style={{ color: '#000' }} id="demo-simple-select-filled-label">Sort</InputLabel>
             <Select
