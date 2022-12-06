@@ -2,7 +2,7 @@
 
 ### Link to Deployed Website
 
-https://wbel4.github.io/mta-train
+https://lazybear22.github.io/pokereact/
 
 ### Goal and Value of the Application
 
