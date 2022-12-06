@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/mta-train/static/css/main.2854da7e.css",
-    "main.js": "/mta-train/static/js/main.453be33c.js",
-    "index.html": "/mta-train/index.html",
-    "main.2854da7e.css.map": "/mta-train/static/css/main.2854da7e.css.map",
-    "main.453be33c.js.map": "/mta-train/static/js/main.453be33c.js.map"
+    "main.css": "/pokereact/static/css/main.2854da7e.css",
+    "main.js": "/pokereact/static/js/main.453be33c.js",
+    "index.html": "/pokereact/index.html",
+    "main.2854da7e.css.map": "/pokereact/static/css/main.2854da7e.css.map",
+    "main.453be33c.js.map": "/pokereact/static/js/main.453be33c.js.map"
   },
   "entrypoints": [
     "static/css/main.2854da7e.css",
